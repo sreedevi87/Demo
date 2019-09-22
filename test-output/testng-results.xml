@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[after execution of first test case]]>
+    </line>
+    <line>
+      <![CDATA[after execution of second test case]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="120" started-at="2019-07-25T02:17:33Z" finished-at="2019-07-25T02:17:33Z">
+    <groups>
+      <group name="navya">
+        <method signature="Groupsample.testCase1()[pri:0, instance:Groupsample@3a82f6ef]" name="testCase1" class="Groupsample"/>
+        <method signature="Groupsample.testCase2()[pri:0, instance:Groupsample@3a82f6ef]" name="testCase2" class="Groupsample"/>
+        <method signature="Groupsample.testCase3()[pri:0, instance:Groupsample@3a82f6ef]" name="testCase3" class="Groupsample"/>
+      </group> <!-- navya -->
+      <group name="sree">
+        <method signature="Groupsample.testCase4()[pri:0, instance:Groupsample@3a82f6ef]" name="testCase4" class="Groupsample"/>
+        <method signature="Groupsample.testCase5()[pri:0, instance:Groupsample@3a82f6ef]" name="testCase5" class="Groupsample"/>
+      </group> <!-- sree -->
+    </groups>
+    <test name="Test" duration-ms="120" started-at="2019-07-25T02:17:33Z" finished-at="2019-07-25T02:17:33Z">
+      <class name="Groupsample">
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:Groupsample@3a82f6ef]" name="testCase1" duration-ms="16" started-at="2019-07-25T02:17:33Z" finished-at="2019-07-25T02:17:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[after execution of first test case]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:Groupsample@3a82f6ef]" name="testCase2" duration-ms="4" started-at="2019-07-25T02:17:33Z" finished-at="2019-07-25T02:17:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[after execution of second test case]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="testCase3()[pri:0, instance:Groupsample@3a82f6ef]" name="testCase3" duration-ms="4" started-at="2019-07-25T02:17:33Z" finished-at="2019-07-25T02:17:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method status="PASS" signature="testCase4()[pri:0, instance:Groupsample@3a82f6ef]" name="testCase4" duration-ms="16" started-at="2019-07-25T02:17:33Z" finished-at="2019-07-25T02:17:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method status="PASS" signature="testCase5()[pri:0, instance:Groupsample@3a82f6ef]" name="testCase5" duration-ms="4" started-at="2019-07-25T02:17:33Z" finished-at="2019-07-25T02:17:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase5 -->
+      </class> <!-- Groupsample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
